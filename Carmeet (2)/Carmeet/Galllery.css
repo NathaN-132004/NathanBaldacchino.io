@@ -1,0 +1,118 @@
+/* ========== HEADER LAYOUT ========== */
+
+
+header {
+  background-color: #dfdfdf;
+  padding-top: 15px;
+  text-align: center;
+}
+
+body {
+  font-family: sans-serif;
+  margin: 0;
+  background-color: #f2f4f8;
+}
+
+.header-top {
+  position: relative;
+  height: 60px;
+}
+
+
+.Title {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 25px;
+}
+
+
+
+/* LOGIN */
+
+.login-left {
+  position: absolute;
+  left: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+
+.login {
+  text-decoration: none;
+  color: black;
+}
+
+/* ========== NAV LINKS ========== */
+.main-nav {
+padding: 20px;
+}
+
+.nav-row {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+}
+
+.nav-row a {
+  text-decoration: none;
+  color:black;
+  padding-left: 10px;
+}
+
+.nav-row a:hover {
+  color: #ff9900;
+}
+
+/* Center the second row */
+.second-row {
+  justify-content: center;
+}
+
+
+/* ========== GALLERY ========== */
+.gallery {
+  padding: 20px;
+  text-align: center;
+  background-color: #ffffff;
+}
+
+.gallery h2 {
+  margin-bottom: 20px;
+  font-size: 1.5rem;
+}
+
+.gallery-images {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.gallery-images img {
+  width: 40%;
+  height: 400px;
+  object-fit: cover;
+  border: 1px solid #ddd;
+}
+
+@media (max-width: 768px) {
+  .gallery-images img {
+    width: 100%;
+  }
+}
+
+
+/* ========== FOOTER ========== */
+footer {
+  background-color: #dfdfdf;
+  text-align: center;
+  padding: 20px;
+}
+
+.logo {
+  text-decoration: none;
+}

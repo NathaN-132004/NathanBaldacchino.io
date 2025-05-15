@@ -1,0 +1,208 @@
+/* ========== HEADER LAYOUT ========== */
+
+
+header {
+  background-color: #dfdfdf;
+  padding-top: 15px;
+  text-align: center;
+}
+
+body {
+  font-family: sans-serif;
+  margin: 0;
+  background-color: #f2f4f8;
+}
+
+.header-top {
+  position: relative;
+  height: 60px;
+}
+
+
+.Title {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 25px;
+}
+
+
+
+/* LOGIN */
+
+.login-left {
+  position: absolute;
+  left: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+
+.login {
+  text-decoration: none;
+  color: black;
+}
+
+/* ========== NAV LINKS ========== */
+.main-nav {
+padding: 20px;
+}
+
+.nav-row {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+}
+
+.nav-row a {
+  text-decoration: none;
+  color:black;
+  padding-left: 10px;
+}
+
+.nav-row a:hover {
+  color: #ff9900;
+}
+
+/* Center the second row */
+.second-row {
+  justify-content: center;
+}
+
+
+/* ========== Main SECTION ========== */
+.Main {
+  width: 100%;
+  height: 60vh;
+}
+
+.Main img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover
+
+}
+
+.Main h1 {
+  position: absolute;
+  top: 60%;
+  left: 10%;
+  color: rgb(255, 255, 255);
+  padding: 10px;
+  font-style: bold;
+  font-size: 50px;
+}
+
+/* ========== BANNER ========== */
+.banner img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+/* ========== Events ========== */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  margin: 0;
+  background-color: #f2f4f8;
+}
+
+.container-events {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding-top: 50px;
+  justify-content: center;
+}
+
+.card {
+  background: white;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  flex: 1 1 300px;
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+}
+
+
+.card img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.card-content {
+  padding: 20px;
+}
+
+.card-content h3 {
+  margin: 0 0 10px;
+  font-size: 1.2rem;
+  color: #1c1c1c;
+}
+
+.card-content p {
+  margin: 0;
+  color: #555;
+}
+
+
+/* ========== CAROUSEL ========== */
+.carousel-inner img {
+  max-height: 400px;
+  object-fit: cover;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* ========== CONTACT FORM ========== */
+.contact {
+  background: #f9f9f9;
+  padding: 20px;
+  text-align: center;
+}
+
+.contact form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact input,
+.contact textarea {
+  width: 50%;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+.contact button {
+  background: #9b9b9b;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  margin-top: 10px;
+  }
+
+.contact button:hover {
+  background: #b1b1b1;
+}
+
+/* ========== FOOTER ========== */
+footer {
+  background-color: #dfdfdf;
+  text-align: center;
+  padding: 20px;
+}
+
+.logo {
+  text-decoration: none;
+}

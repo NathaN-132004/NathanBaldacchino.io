@@ -1,0 +1,116 @@
+/* ========== HEADER LAYOUT ========== */
+
+
+header {
+  background-color: #dfdfdf;
+  padding-top: 15px;
+  text-align: center;
+}
+
+body {
+  font-family: sans-serif;
+  margin: 0;
+  background-color: #f2f4f8;
+}
+
+.header-top {
+  position: relative;
+  height: 60px;
+}
+
+
+.Title {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 25px;
+}
+
+
+
+/* LOGIN */
+
+.login-left {
+  position: absolute;
+  left: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+
+.login {
+  text-decoration: none;
+  color: black;
+}
+
+/* ========== NAV LINKS ========== */
+.main-nav {
+padding: 20px;
+}
+
+.nav-row {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+}
+
+.nav-row a {
+  text-decoration: none;
+  color:black;
+  padding-left: 10px;
+}
+
+.nav-row a:hover {
+  color: #ff9900;
+}
+
+/* Center the second row */
+.second-row {
+  justify-content: center;
+}
+
+
+/* ========== Main SECTION ========== */
+.AboutUs{
+    width: 100%;
+    height: 60vh;
+    padding: 20px;
+    text-align: center;
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.AboutUs img {
+    width: 50%;
+    height: 100%;
+    align-self: center;
+}
+
+html, body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  main {
+    flex: 1;
+  }
+  
+
+/* ========== FOOTER ========== */
+footer {
+  background-color: #dfdfdf;
+  text-align: center;
+  padding: 20px;
+}
+
+.logo {
+  text-decoration: none;
+}
+
+
